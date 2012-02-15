@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4892B8A14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8914EB3DA0003C1C21 /* Cocoa.framework */; };
+		D4892B9414EB3DA0003C1C21 /* RXDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D4892B9314EB3DA0003C1C21 /* RXDispatch.m */; };
+		D4892B9C14EB3DA0003C1C21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B9B14EB3DA0003C1C21 /* SenTestingKit.framework */; };
+		D4892B9D14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8914EB3DA0003C1C21 /* Cocoa.framework */; };
+		D4892BA014EB3DA0003C1C21 /* libRXDispatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8614EB3DA0003C1C21 /* libRXDispatch.a */; };
+		D4892BA614EB3DA0003C1C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4892BA414EB3DA0003C1C21 /* InfoPlist.strings */; };
+		D4892BA914EB3DA0003C1C21 /* RXDispatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4892B9E14EB3DA0003C1C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4892B7D14EB3DA0003C1C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4892B8514EB3DA0003C1C21;
+			remoteInfo = RXDispatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4892B8614EB3DA0003C1C21 /* libRXDispatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRXDispatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4892B8914EB3DA0003C1C21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D4892B8C14EB3DA0003C1C21 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4892B8D14EB3DA0003C1C21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D4892B8E14EB3DA0003C1C21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4892B9114EB3DA0003C1C21 /* RXDispatch-Prefix.pch */ = {isa = PBXFileReference; path = "RXDispatch-Prefix.pch"; sourceTree = "<group>"; };
+		D4892B9214EB3DA0003C1C21 /* RXDispatch.h */ = {isa = PBXFileReference; path = RXDispatch.h; sourceTree = "<group>"; };
+		D4892B9314EB3DA0003C1C21 /* RXDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXDispatch.m; sourceTree = "<group>"; };
+		D4892B9A14EB3DA0003C1C21 /* RXDispatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXDispatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4892B9B14EB3DA0003C1C21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4892BA314EB3DA0003C1C21 /* RXDispatchTests-Info.plist */ = {isa = PBXFileReference; path = "RXDispatchTests-Info.plist"; sourceTree = "<group>"; };
+		D4892BA514EB3DA0003C1C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4892BA714EB3DA0003C1C21 /* RXDispatchTests.h */ = {isa = PBXFileReference; path = RXDispatchTests.h; sourceTree = "<group>"; };
+		D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXDispatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4892B8314EB3DA0003C1C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4892B8A14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4892B9614EB3DA0003C1C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4892B9C14EB3DA0003C1C21 /* SenTestingKit.framework in Frameworks */,
+				D4892B9D14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */,
+				D4892BA014EB3DA0003C1C21 /* libRXDispatch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4892B7B14EB3DA0003C1C21 = {
+			isa = PBXGroup;
+			children = (
+				D4892B8F14EB3DA0003C1C21 /* RXDispatch */,
+				D4892BA114EB3DA0003C1C21 /* RXDispatchTests */,
+				D4892B8814EB3DA0003C1C21 /* Frameworks */,
+				D4892B8714EB3DA0003C1C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4892B8714EB3DA0003C1C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4892B8614EB3DA0003C1C21 /* libRXDispatch.a */,
+				D4892B9A14EB3DA0003C1C21 /* RXDispatchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4892B8814EB3DA0003C1C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4892B8914EB3DA0003C1C21 /* Cocoa.framework */,
+				D4892B9B14EB3DA0003C1C21 /* SenTestingKit.framework */,
+				D4892B8B14EB3DA0003C1C21 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4892B8B14EB3DA0003C1C21 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4892B8C14EB3DA0003C1C21 /* AppKit.framework */,
+				D4892B8D14EB3DA0003C1C21 /* CoreData.framework */,
+				D4892B8E14EB3DA0003C1C21 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D4892B8F14EB3DA0003C1C21 /* RXDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				D4892B9214EB3DA0003C1C21 /* RXDispatch.h */,
+				D4892B9314EB3DA0003C1C21 /* RXDispatch.m */,
+				D4892B9014EB3DA0003C1C21 /* Supporting Files */,
+			);
+			path = RXDispatch;
+			sourceTree = "<group>";
+		};
+		D4892B9014EB3DA0003C1C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4892B9114EB3DA0003C1C21 /* RXDispatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4892BA114EB3DA0003C1C21 /* RXDispatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4892BA714EB3DA0003C1C21 /* RXDispatchTests.h */,
+				D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */,
+				D4892BA214EB3DA0003C1C21 /* Supporting Files */,
+			);
+			path = RXDispatchTests;
+			sourceTree = "<group>";
+		};
+		D4892BA214EB3DA0003C1C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4892BA314EB3DA0003C1C21 /* RXDispatchTests-Info.plist */,
+				D4892BA414EB3DA0003C1C21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4892B8414EB3DA0003C1C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4892B8514EB3DA0003C1C21 /* RXDispatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4892BAC14EB3DA0003C1C21 /* Build configuration list for PBXNativeTarget "RXDispatch" */;
+			buildPhases = (
+				D4892B8214EB3DA0003C1C21 /* Sources */,
+				D4892B8314EB3DA0003C1C21 /* Frameworks */,
+				D4892B8414EB3DA0003C1C21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RXDispatch;
+			productName = RXDispatch;
+			productReference = D4892B8614EB3DA0003C1C21 /* libRXDispatch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4892B9914EB3DA0003C1C21 /* RXDispatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4892BAF14EB3DA0003C1C21 /* Build configuration list for PBXNativeTarget "RXDispatchTests" */;
+			buildPhases = (
+				D4892B9514EB3DA0003C1C21 /* Sources */,
+				D4892B9614EB3DA0003C1C21 /* Frameworks */,
+				D4892B9714EB3DA0003C1C21 /* Resources */,
+				D4892B9814EB3DA0003C1C21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4892B9F14EB3DA0003C1C21 /* PBXTargetDependency */,
+			);
+			name = RXDispatchTests;
+			productName = RXDispatchTests;
+			productReference = D4892B9A14EB3DA0003C1C21 /* RXDispatchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4892B7D14EB3DA0003C1C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Monochrome Industries";
+			};
+			buildConfigurationList = D4892B8014EB3DA0003C1C21 /* Build configuration list for PBXProject "RXDispatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4892B7B14EB3DA0003C1C21;
+			productRefGroup = D4892B8714EB3DA0003C1C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4892B8514EB3DA0003C1C21 /* RXDispatch */,
+				D4892B9914EB3DA0003C1C21 /* RXDispatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4892B9714EB3DA0003C1C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4892BA614EB3DA0003C1C21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4892B9814EB3DA0003C1C21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4892B8214EB3DA0003C1C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4892B9414EB3DA0003C1C21 /* RXDispatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4892B9514EB3DA0003C1C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4892BA914EB3DA0003C1C21 /* RXDispatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4892B9F14EB3DA0003C1C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4892B8514EB3DA0003C1C21 /* RXDispatch */;
+			targetProxy = D4892B9E14EB3DA0003C1C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4892BA414EB3DA0003C1C21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4892BA514EB3DA0003C1C21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4892BAA14EB3DA0003C1C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4892BAB14EB3DA0003C1C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4892BAD14EB3DA0003C1C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RXDispatch/RXDispatch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4892BAE14EB3DA0003C1C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RXDispatch/RXDispatch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4892BB014EB3DA0003C1C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RXDispatch/RXDispatch-Prefix.pch";
+				INFOPLIST_FILE = "RXDispatchTests/RXDispatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D4892BB114EB3DA0003C1C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RXDispatch/RXDispatch-Prefix.pch";
+				INFOPLIST_FILE = "RXDispatchTests/RXDispatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4892B8014EB3DA0003C1C21 /* Build configuration list for PBXProject "RXDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4892BAA14EB3DA0003C1C21 /* Debug */,
+				D4892BAB14EB3DA0003C1C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4892BAC14EB3DA0003C1C21 /* Build configuration list for PBXNativeTarget "RXDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4892BAD14EB3DA0003C1C21 /* Debug */,
+				D4892BAE14EB3DA0003C1C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4892BAF14EB3DA0003C1C21 /* Build configuration list for PBXNativeTarget "RXDispatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4892BB014EB3DA0003C1C21 /* Debug */,
+				D4892BB114EB3DA0003C1C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4892B7D14EB3DA0003C1C21 /* Project object */;
+}
