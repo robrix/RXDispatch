@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D4892B8A14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8914EB3DA0003C1C21 /* Cocoa.framework */; };
-		D4892B9414EB3DA0003C1C21 /* RXDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D4892B9314EB3DA0003C1C21 /* RXDispatch.m */; };
 		D4892B9C14EB3DA0003C1C21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B9B14EB3DA0003C1C21 /* SenTestingKit.framework */; };
 		D4892B9D14EB3DA0003C1C21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8914EB3DA0003C1C21 /* Cocoa.framework */; };
 		D4892BA014EB3DA0003C1C21 /* libRXDispatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4892B8614EB3DA0003C1C21 /* libRXDispatch.a */; };
 		D4892BA614EB3DA0003C1C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4892BA414EB3DA0003C1C21 /* InfoPlist.strings */; };
-		D4892BA914EB3DA0003C1C21 /* RXDispatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */; };
+		D4892BB414EB3E24003C1C21 /* RXDispatchGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D4892BB214EB3E24003C1C21 /* RXDispatchGroup.h */; };
+		D4892BB514EB3E24003C1C21 /* RXDispatchGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D4892BB314EB3E24003C1C21 /* RXDispatchGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +32,13 @@
 		D4892B8C14EB3DA0003C1C21 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D4892B8D14EB3DA0003C1C21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D4892B8E14EB3DA0003C1C21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D4892B9114EB3DA0003C1C21 /* RXDispatch-Prefix.pch */ = {isa = PBXFileReference; path = "RXDispatch-Prefix.pch"; sourceTree = "<group>"; };
-		D4892B9214EB3DA0003C1C21 /* RXDispatch.h */ = {isa = PBXFileReference; path = RXDispatch.h; sourceTree = "<group>"; };
-		D4892B9314EB3DA0003C1C21 /* RXDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXDispatch.m; sourceTree = "<group>"; };
+		D4892B9114EB3DA0003C1C21 /* RXDispatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RXDispatch-Prefix.pch"; sourceTree = "<group>"; };
 		D4892B9A14EB3DA0003C1C21 /* RXDispatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXDispatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4892B9B14EB3DA0003C1C21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D4892BA314EB3DA0003C1C21 /* RXDispatchTests-Info.plist */ = {isa = PBXFileReference; path = "RXDispatchTests-Info.plist"; sourceTree = "<group>"; };
+		D4892BA314EB3DA0003C1C21 /* RXDispatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RXDispatchTests-Info.plist"; sourceTree = "<group>"; };
 		D4892BA514EB3DA0003C1C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D4892BA714EB3DA0003C1C21 /* RXDispatchTests.h */ = {isa = PBXFileReference; path = RXDispatchTests.h; sourceTree = "<group>"; };
-		D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXDispatchTests.m; sourceTree = "<group>"; };
+		D4892BB214EB3E24003C1C21 /* RXDispatchGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXDispatchGroup.h; sourceTree = "<group>"; };
+		D4892BB314EB3E24003C1C21 /* RXDispatchGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXDispatchGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +105,9 @@
 		D4892B8F14EB3DA0003C1C21 /* RXDispatch */ = {
 			isa = PBXGroup;
 			children = (
-				D4892B9214EB3DA0003C1C21 /* RXDispatch.h */,
-				D4892B9314EB3DA0003C1C21 /* RXDispatch.m */,
 				D4892B9014EB3DA0003C1C21 /* Supporting Files */,
+				D4892BB214EB3E24003C1C21 /* RXDispatchGroup.h */,
+				D4892BB314EB3E24003C1C21 /* RXDispatchGroup.m */,
 			);
 			path = RXDispatch;
 			sourceTree = "<group>";
@@ -125,8 +123,6 @@
 		D4892BA114EB3DA0003C1C21 /* RXDispatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4892BA714EB3DA0003C1C21 /* RXDispatchTests.h */,
-				D4892BA814EB3DA0003C1C21 /* RXDispatchTests.m */,
 				D4892BA214EB3DA0003C1C21 /* Supporting Files */,
 			);
 			path = RXDispatchTests;
@@ -148,6 +144,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4892BB414EB3E24003C1C21 /* RXDispatchGroup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4892B9414EB3DA0003C1C21 /* RXDispatch.m in Sources */,
+				D4892BB514EB3E24003C1C21 /* RXDispatchGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4892BA914EB3DA0003C1C21 /* RXDispatchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +299,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -323,7 +319,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
