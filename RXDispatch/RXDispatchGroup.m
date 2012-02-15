@@ -14,6 +14,14 @@
 	return self;
 }
 
+-(id)init
+{
+	dispatch_group_t _group = dispatch_group_create();
+	self = [self initWithGroup:_group];
+	dispatch_release(_group);
+	return self;
+}
+
 -(void)dealloc {
 	dispatch_release(group);
 #if !__has_feature(objc_arc)

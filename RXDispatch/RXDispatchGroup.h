@@ -10,6 +10,7 @@
 }
 
 -(id)initWithGroup:(dispatch_group_t)_group;
+-(id)init; // creates a new group
 
 @property (nonatomic, readonly) dispatch_group_t group;
 
