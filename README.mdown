@@ -1,0 +1,7 @@
+#Why would anyone make such a stupid thing?
+
+I need blocks to automatically capture and retain dispatch_group_t’s such that the groups have lifetimes at least as long as those of the blocks. This was the path of least resistance.
+
+#Do I need this?
+
+Probably not. There are other solutions that are often more convenient. If you’re using [RXFutures](https://github.com/robrix), however, you might find that this helps you ensure that your cancellation/completion handlers can interact safely with libdispatch objects without jumping through hoops or trying to force some ordering on said handlers.
